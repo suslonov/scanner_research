@@ -1,0 +1,9 @@
+
+create database sniper;
+create user 'sniper'@'localhost' identified by 'sniper';
+ALTER USER 'sniper'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sniper';
+grant all on sniper.* to 'sniper'@'localhost';
+
+mysql sniper -u sniper --password=sniper
+
+

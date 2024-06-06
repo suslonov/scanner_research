@@ -1,0 +1,9 @@
+{
+        "OPENAI_KEY_FILE": "~/git/scanner_research/keys/chat_gpt_ethos.sec",
+        "//OPENAI_KEY_FILE": "~/git/scanner_research/keys/chat_gpt_anton.sec",
+        "ETHERSCAN_KEY_FILE": "~/git/scanner_research/keys/etherscan.sec",
+        "BSCSCAN_KEY_FILE": "~/git/scanner_research/keys/bscscan.sec",
+	"MAX_TOKENS": 1000,
+	"DB_SERVER": "rsynergy2_sqlconnect",
+	"GOOD_TEMPLATE_FILES": ["KERMIT_the_frog.sol"]
+}
